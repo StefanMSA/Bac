@@ -1,7 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Almendra&family=Germania+One&family=Oleo+Script+Swash+Caps&display=swap');
 body {
+  width: 80vw;
   margin: 0 auto;
+  background-image: url('background.png');
+  font-family: Allerta Stencil ,cursive;
 }
+
 .lista-cu-a {
   list-style-type: lower-alpha;
+}
+header {
+  background-image: url('header.png');
+  text-align: center;
+}
+
+header ul {
+  padding: 0;
+}
+.menubar-li {
+  list-style: none;
+}
+h1, h2, h3, h4, p {
+  text-indent: 2em;
+}
+img {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+  padding: 1.5em 0;
+}
+.menubar-a {
+  color: white;
+  text-decoration: none;
+  padding: 1.5em;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-family: Almendra, cursive;
+}
+.title h1 {
+  text-indent: 0;
+  font-size: 2.6em;
+  padding: 1em;
+  font-family: 'Zen Tokyo Zoo', cursive !important;
+  font-weight: 200;
+
+}
+
+.link-title-left {
+  color: magenta;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px rgba(255,255,255,0.7)
+
+}
+.link-title-right {
+  color: white;
+  text-decoration: none;
+  text-shadow: 3px 3px 3px rgba( 255, 0, 255,1)
+
+}
+.menubar {
+    background-color: blue;
+    display: inline-block;
+    padding: 1.5em;
+}
+.site-content {
+  background-color: white;
+  padding: 1.5em;
+}
+h1, h2, h3, h4 {
+  font-family: Germania One ,cursive;
+}
+.site-content a {
+  text-decoration: none;
+  color: magenta;
+}
+aside h3, h4 {
+  color: #66d9ff;
+}
+.menubar-a:hover {
+  background-color: grey;
+}
+.selected {
+  background-color: grey;
+}
+.site-content a:hover {
+  color: #ffff33;
 }
