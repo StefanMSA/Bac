@@ -87,7 +87,7 @@ aside h3, h4 {
   background-color: grey;
 }
 .site-content a:hover {
-  color: #ffff33;
+  color: #00cc00;
 }
 @media (min-width:1000px) {
 body {
